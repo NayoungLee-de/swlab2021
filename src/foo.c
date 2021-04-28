@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include "funcs.h"
 
-void foo(){
+int foo(){
+	int flag=0;
+	if (flag) {
 	printf("hello foo world\n");
+	}
+	else{
+	printf("hello foo world\n");
+	}
+	return 0;
 }
